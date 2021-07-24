@@ -19,7 +19,7 @@ from __future__ import division
 from __future__ import print_function
 
 import unittest
-from sampling_methods.utils import tree
+import tree
 
 
 class TreeTest(unittest.TestCase):
