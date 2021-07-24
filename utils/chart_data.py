@@ -28,7 +28,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 
 from absl import app
 from absl import flags
-from tensorflow import gfile
+from tensorflow.compat.v1 import gfile
 
 flags.DEFINE_string('source_dir',
                     '/tmp/toy_experiments',
