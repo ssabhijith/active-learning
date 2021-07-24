@@ -33,9 +33,9 @@ from sklearn.svm import SVC
 from tensorflow.compat.v1 import gfile
 
 
-from utils.kernel_block_solver import BlockKernelSolver
-from utils.small_cnn import SmallCNN
-from utils.allconv import AllConv
+from kernel_block_solver import BlockKernelSolver
+from small_cnn import SmallCNN
+from allconv import AllConv
 
 
 class Logger(object):
