@@ -46,7 +46,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 
 from absl import app
 from absl import flags
-from tensorflow import gfile
+from tensorflow.compat.v1 import gfile
 
 flags.DEFINE_string('save_dir', '/tmp/data',
                     'Where to save outputs')
