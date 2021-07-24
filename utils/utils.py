@@ -30,7 +30,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.svm import LinearSVC
 from sklearn.svm import SVC
 
-from tensorflow import gfile
+from tensorflow.compat.v1 import gfile
 
 
 from utils.kernel_block_solver import BlockKernelSolver
